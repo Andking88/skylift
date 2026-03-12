@@ -1,0 +1,42 @@
+
+.cabeçalho{
+    background-image: url(imagens/heliponto.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:goldenrod ;
+    padding: 10px;background-position: center;
+    flex-direction: initial;
+
+
+}
+.div-h1{
+    
+}
+
+
+
+.img-header{
+    width:200px ;
+   
+}
+
+.ul-lista li{
+    list-style: none;
+
+}
+
+.div-lista{
+    display: flex;
+    gap: 15px;
+}
+
+.ul-lista a{
+    text-decoration: none;
+    color:goldenrod;
+    font-size: 20px;
+    font-weight: 800;
+   text-transform: uppercase;
+  
+
+}
