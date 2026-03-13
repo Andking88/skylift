@@ -1,42 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
-.cabeçalho{
-    background-image: url(imagens/heliponto.png);
+.cabeçalho {
+    background-image: url(imagens/aeronave\ ceu\ azul.png);
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    color:goldenrod ;
-    padding: 10px;background-position: center;
-    flex-direction: initial;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-position: center;
+    font-family: "Archivo Black";
+    background-repeat: no-repeat;
+    background-size: cover;
 
 
 }
-.div-h1{
-    
+
+
+
+.img-header {
+    width: 200px;
+
 }
 
-
-
-.img-header{
-    width:200px ;
-   
-}
-
-.ul-lista li{
+.ul-lista li {
     list-style: none;
 
 }
 
-.div-lista{
+.ul-lista {
     display: flex;
-    gap: 15px;
+    gap: 45px;
 }
 
-.ul-lista a{
+.ul-lista a {
     text-decoration: none;
-    color:goldenrod;
-    font-size: 20px;
-    font-weight: 800;
-   text-transform: uppercase;
-  
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Archivo Black";
+
+}
+
+.primeira-section {
+    background-color: #a4ccd6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    padding: 30px;
+
+
+}
+
+.div-01 img {
+    width: 400px;
+}
+
+.div-01 p {
+    font-size: 10px;
+    font-family: "Archivo Black";
+    text-align: center;
+}
+
+.div-01 button {
+    font-family: "Archivo Black";
+
+}
+
+.div-02 img {
+    width: 400px;
+
+}
+
+.div-02 p {
+    font-size: 10px;
+    font-family: "Archivo Black";
+    text-align: center;
+
+}
+
+span {
+    font-size: 15px;
+    color: #752c18;
+}
+
+.div-02 button {
+    font-family: "Archivo Black";
+}
+
+.segunda-section div {
+    width: 300px;
+    height: 300px;
+    background-color: #d5dbe0;
+    padding: 35px;
+    text-align: center;
+    font-family: "Archivo Black";
+
+}
+
+.segunda-section {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    gap: 20px;
+    background-color: #a4ccd6;
+    font-family: "Archivo Black";
+
+}
+
+.fa-solid {
+    font-size: 40px;
+
+}
+
+.segunda-section button {
+
+    font-family: "Archivo Black";
+
 
 }
