@@ -3,9 +3,9 @@
 .cabeçalho {
     background-image: url(imagens/aeronave\ ceu\ azul.png);
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: space-evenly;
-    padding: 10px;
+    padding: 100px;
     background-position: center;
     font-family: "Archivo Black";
     background-repeat: no-repeat;
@@ -14,10 +14,16 @@
 
 }
 
+.breua {
+    width: 200px;
+    height: 200px;
+    border-image-width: 200px;
+
+}
 
 
 .img-header {
-    width: 200px;
+    width: 300px;
 
 }
 
@@ -29,14 +35,16 @@
 .ul-lista {
     display: flex;
     gap: 45px;
+
 }
 
 .ul-lista a {
     text-decoration: none;
     color: black;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 200;
     font-family: "Archivo Black";
+
 
 }
 
@@ -56,7 +64,7 @@
 }
 
 .div-01 p {
-    font-size: 10px;
+    font-size: 13px;
     font-family: "Archivo Black";
     text-align: center;
 }
@@ -72,7 +80,7 @@
 }
 
 .div-02 p {
-    font-size: 10px;
+    font-size: 13px;
     font-family: "Archivo Black";
     text-align: center;
 
@@ -80,7 +88,7 @@
 
 span {
     font-size: 15px;
-    color: #752c18;
+    color: rgb(218, 145, 20);
 }
 
 .div-02 button {
@@ -109,13 +117,121 @@ span {
 }
 
 .fa-solid {
-    font-size: 40px;
+    font-size: 20px;
 
 }
 
 .segunda-section button {
-
     font-family: "Archivo Black";
 
 
+}
+
+.terceira-section {
+    background-image: url(imagens/branding02.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.terceira-section button {
+    font-family: "Archivo Black";
+    background-color: rgb(255, 162, 0);
+
+}
+
+.quarta-section {
+    background-color: #a4ccd6;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Archivo Black";
+}
+
+.tablecabecalho {
+    font-family: "Archivo Black";
+    background-color: #73828d;
+
+}
+
+.table01 {
+    font-family: "Archivo Black";
+    text-align: center;
+    background-color: #32719b;
+
+}
+
+.table02 {
+    background-color: #b4cdd5;
+    text-align: center;
+    font-family: "Archivo Black";
+
+}
+
+.table03 {
+    background-color: #32719b;
+    text-align: center;
+    font-family: "Archivo Black";
+
+}
+
+.fa-helicopter,
+.fa-clock {
+    font-size: 20px;
+
+}
+
+.footer {
+    background-color:#73828d;
+    color: black;
+    padding: 60px 20px;
+    font-family: "Archivo Black";
+
+}
+
+.footer-caixa {
+   width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+
+.footer-h201 h2 {
+font-size: 40px;
+margin: 10px;
+   
+}
+
+.footer-h201 p  {
+
+  font-size: 20px; 
+  width: 400px;
+  
+}
+
+.botao-enviar  {
+background: transparent;
+border: 1px solid
+ white;
+color: black;
+padding:  10px;
+font-family: "Archivo Black";
+
+}
+
+.fa-brands {
+font-size: 40px;
+color: #32719b;
+
+    
 }
