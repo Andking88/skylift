@@ -15,9 +15,10 @@
 }
 
 .breua {
-    width: 200px;
-    height: 200px;
-    border-image-width: 200px;
+    width: 150px;
+    height: 150px;
+    border-image-width: 90px;
+
 
 }
 
@@ -34,15 +35,15 @@
 
 .ul-lista {
     display: flex;
-    gap: 45px;
+    gap: 35px;
 
 }
 
 .ul-lista a {
     text-decoration: none;
-    color: black;
-    font-size: 13px;
-    font-weight: 200;
+    color: #ff8c00;
+    font-size: 15px;
+    font-weight: 100;
     font-family: "Archivo Black";
 
 
@@ -54,13 +55,13 @@
     align-items: center;
     justify-content: space-between;
     gap: 35px;
-    padding: 30px;
-
+    padding: 20px;
+margin: auto;
 
 }
 
 .div-01 img {
-    width: 400px;
+    width: 330px;
 }
 
 .div-01 p {
@@ -74,8 +75,25 @@
 
 }
 
+.div-meio img {
+width: 330px;  
+
+}
+
+.div-meio p {
+    font-size: 13px;
+    font-family: "Archivo Black";
+    text-align: center;
+   
+}
+
+.div-meio button {
+
+    font-family: "Archivo Black";
+}
+
 .div-02 img {
-    width: 400px;
+    width: 330px;
 
 }
 
@@ -88,7 +106,7 @@
 
 span {
     font-size: 15px;
-    color: rgb(218, 145, 20);
+    color: #ff8c00;
 }
 
 .div-02 button {
@@ -118,6 +136,7 @@ span {
 
 .fa-solid {
     font-size: 20px;
+    color: #ff8c00;
 
 }
 
@@ -158,7 +177,7 @@ span {
 
 .tablecabecalho {
     font-family: "Archivo Black";
-    background-color: #73828d;
+    background-color: #ff8c00;
 
 }
 
@@ -190,15 +209,15 @@ span {
 }
 
 .footer {
-    background-color:#609cc6;
+    background-color: #609cc6;
     color: black;
-    padding: 60px 20px;
+    padding: 40px 10px;
     font-family: "Archivo Black";
 
 }
 
 .footer-caixa {
-   width: 600px;
+    width: 800px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -207,31 +226,30 @@ span {
 }
 
 .footer-h201 h2 {
-font-size: 40px;
-margin: 10px;
-   
+    font-size: 20px;
+    margin: 10px;
+
 }
 
-.footer-h201 p  {
+.footer-h201 p {
 
-  font-size: 20px; 
-  width: 400px;
-  
+    font-size: 15px;
+    width: 300px;
+
 }
 
-.botao-enviar  {
-background: transparent;
-border: 1px solid
- white;
-color: black;
-padding:  10px;
-font-family: "Archivo Black";
+.botao-enviar {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 05px;
+    font-family: "Archivo Black";
 
 }
 
 .fa-brands {
-font-size: 40px;
-color: #32719b;
+    font-size: 30px;
+    color: #ff8c00;
 
-    
+
 }
