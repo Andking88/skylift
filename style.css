@@ -1,23 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
+*{
+    scroll-behavior: smooth;
+    font-family: "Archivo Black";
+    list-style: none;
+}
+
+
 .cabeçalho {
     background-image: url(imagens/aeronave\ ceu\ azul.png);
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: space-evenly;
-    padding: 100px;
-    background-position: center;
+    background-position: bottom;
     font-family: "Archivo Black";
     background-repeat: no-repeat;
     background-size: cover;
 
+    position: sticky;
+    top: 0;
+    left: 0px;
+    z-index: 1;
 
 }
 
 .breua {
-    width: 150px;
-    height: 150px;
-    border-image-width: 90px;
+    width: 100px;
+    height: 100px;
+    border-image-width: 100px;
 
 
 }
@@ -35,7 +45,7 @@
 
 .ul-lista {
     display: flex;
-    gap: 35px;
+    gap: 25px;
 
 }
 
@@ -48,16 +58,15 @@
 
 
 }
-
+ 
 .primeira-section {
     background-color: #a4ccd6;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 35px;
+    gap: 150px;
     padding: 20px;
-margin: auto;
-
+        
 }
 
 .div-01 img {
@@ -76,7 +85,7 @@ margin: auto;
 }
 
 .div-meio img {
-width: 330px;  
+    width: 330px;
 
 }
 
@@ -84,7 +93,7 @@ width: 330px;
     font-size: 13px;
     font-family: "Archivo Black";
     text-align: center;
-   
+
 }
 
 .div-meio button {
@@ -152,7 +161,7 @@ span {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    padding: 200px;
+    padding: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,7 +176,7 @@ span {
 
 .quarta-section {
     background-color: #a4ccd6;
-    padding: 30px;
+    padding: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -217,7 +226,7 @@ span {
 }
 
 .footer-caixa {
-    width: 800px;
+    width: 900px;
     margin: auto;
     display: flex;
     justify-content: space-between;
