@@ -68,12 +68,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    font-size: small;
     padding: 20px;
-    flex-direction: row-reverse;
-    row-gap: 30px;
+
+
     text-align: center;
-    text-size-adjust: 30px;
+
 }
 
 .div-01 img,
@@ -88,9 +88,9 @@
 }
 
 .div-01 p {
-    font-size: 17px;
+    font-size: 15px;
     font-family: "Archivo Black";
-    text-align: center;
+
 
 
 }
@@ -107,9 +107,8 @@
 }
 
 .div-meio p {
-    font-size: 17px;
+    font-size: 15px;
     font-family: "Archivo Black";
-    text-align: center;
 
 }
 
@@ -124,9 +123,8 @@
 }
 
 .div-02 p {
-    font-size: 17px;
+    font-size: 15px;
     font-family: "Archivo Black";
-    text-align: center;
 
 
 }
@@ -138,7 +136,7 @@ span {
 
 .div-02 button {
     font-family: "Archivo Black";
-    
+
 }
 
 .segunda-section div {
@@ -150,7 +148,7 @@ span {
     font-family: "Archivo Black";
     box-shadow: 10px 10px 15px #32719b;
     gap: 50px;
-    
+
 }
 
 .segunda-section div:hover {
@@ -303,6 +301,6 @@ span {
     color: #ff8c00;
 }
 
-.fa-brands:hover{
+.fa-brands:hover {
     color: red;
 }
