@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
-*{
+* {
     scroll-behavior: smooth;
     font-family: "Archivo Black";
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -34,7 +36,7 @@
 
 
 .img-header {
-    width: 300px;
+    width: 200px;
 
 }
 
@@ -51,46 +53,61 @@
 
 .ul-lista a {
     text-decoration: none;
-    color: #ff8c00;
+    color: black;
     font-size: 15px;
     font-weight: 100;
     font-family: "Archivo Black";
-
-
 }
- 
+
+.ul-lista a:hover {
+    color: #ff8c00;
+}
+
 .primeira-section {
     background-color: #a4ccd6;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 150px;
+    gap: 40px;
     padding: 20px;
-        
+    flex-direction: row-reverse;
+    row-gap: 30px;
+    text-align: center;
+    text-size-adjust: 30px;
+}
+
+.div-01 img,
+.div-meio img,
+.div-02 img:hover {
+    box-shadow: 15px 15px 20px #32719b;
 }
 
 .div-01 img {
     width: 330px;
+    box-shadow: 10px 10px 15px #32719b;
 }
 
 .div-01 p {
-    font-size: 13px;
+    font-size: 17px;
     font-family: "Archivo Black";
     text-align: center;
+
+
 }
 
 .div-01 button {
     font-family: "Archivo Black";
 
+
 }
 
 .div-meio img {
     width: 330px;
-
+    box-shadow: 10px 10px 15px #32719b;
 }
 
 .div-meio p {
-    font-size: 13px;
+    font-size: 17px;
     font-family: "Archivo Black";
     text-align: center;
 
@@ -103,13 +120,14 @@
 
 .div-02 img {
     width: 330px;
-
+    box-shadow: 10px 10px 15px #32719b;
 }
 
 .div-02 p {
-    font-size: 13px;
+    font-size: 17px;
     font-family: "Archivo Black";
     text-align: center;
+
 
 }
 
@@ -120,6 +138,7 @@ span {
 
 .div-02 button {
     font-family: "Archivo Black";
+    
 }
 
 .segunda-section div {
@@ -129,7 +148,13 @@ span {
     padding: 35px;
     text-align: center;
     font-family: "Archivo Black";
+    box-shadow: 10px 10px 15px #32719b;
+    gap: 50px;
+    
+}
 
+.segunda-section div:hover {
+    box-shadow: 15px 15px 20px #32719b;
 }
 
 .segunda-section {
@@ -137,7 +162,7 @@ span {
     text-align: center;
     justify-content: space-evenly;
     padding: 30px;
-    gap: 20px;
+    gap: 50px;
     background-color: #a4ccd6;
     font-family: "Archivo Black";
 
@@ -171,7 +196,12 @@ span {
 .terceira-section button {
     font-family: "Archivo Black";
     background-color: rgb(255, 162, 0);
+    box-shadow: 10px 10px 15px #ff8c00;
+    border: #ff8c00;
+}
 
+.terceira-section button:hover {
+    box-shadow: 15px 15px 20px #ff8c00;
 }
 
 .quarta-section {
@@ -190,11 +220,16 @@ span {
 
 }
 
+
 .table01 {
     font-family: "Archivo Black";
     text-align: center;
     background-color: #32719b;
 
+}
+
+.table01:hover {
+    color: red;
 }
 
 .table02 {
@@ -204,11 +239,18 @@ span {
 
 }
 
+.table02:hover {
+    color: red;
+}
+
 .table03 {
     background-color: #32719b;
     text-align: center;
     font-family: "Archivo Black";
+}
 
+.table03:hover {
+    color: red;
 }
 
 .fa-helicopter,
@@ -259,6 +301,8 @@ span {
 .fa-brands {
     font-size: 30px;
     color: #ff8c00;
+}
 
-
+.fa-brands:hover{
+    color: red;
 }
